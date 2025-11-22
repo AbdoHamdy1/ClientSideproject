@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    width: 90%;
+    margin: auto;
+}
+
+.nav1 a {
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav1 img {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    width: 93%;
+    margin: auto;
+}
+
+.logo img {
+    width: 145px; 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.menu li a:hover,
+.menu li a.active {
+    color: #f7963f; 
+}
+
+.btn-signup {
+    background: #0c2d48;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 20px;
+}
+
+
+.btn-signup:hover {
+    opacity: 0.8;
+}
+
+
+.contact-header{
+    width: 100%;
+    height: 480px;
+    margin-top: 20px;
+    background-image: url('assets/Gemini_Generated_Image_aqrw3baqrw3baqrw.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+.header-text h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+.header-text p{
+    text-align: center;
+    font-size: 14px;
+    color: #f0f0f0;
+}
+.contact-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin: 60px 0;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+}
+.card1, .card2, .card3{
+    width: 300px;
+    height: 200px;
+    background-color: #fffcfc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.card1 img, .card2 img, .card3 img{
+    position: absolute;
+    top:-50px;
+    left: 100px;
+}
+.card1 h2, .card2 h2, .card3 h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #133A5E;
+}
+.contact-form{
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+}
+
+
+.form-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-img img{
+    width: 80%;
+}
+.form {
+    width: 700px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Name,
+.user-contact {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.field {
+    flex: 1;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+label span {
+    color: red;
+    font-size: 21px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 15px;
+    background: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea {
+    height: 170px;
+    resize: none;
+}
+
+.message {
+    margin-bottom: 25px;
+}
+
+button {
+    width: 100%;
+    padding: 18px;
+    background: #0d2f52;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+.footer {
+    margin-top: 60px;
+    background-color:#F3F3F3;
+}
+.upper-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+    background: #f5f5f5;
+    font-family: sans-serif;
+}
+
+.upper-footer div h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.the-logo {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px; 
+}
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.logo-footer img {
+    width: 145px; 
+    margin-bottom: 20px;
+    margin-left: -30px;
+    margin-top: -20px;
+
+}
+
+.logo-text p {
+    width: 80%;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+
+.logo-para {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.logo-para img {
+    width: 18px;
+}
+
+.logo-para p,
+.logo-para a {
+    color: #333;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.company, .Categ, .customer-care {
+    width: 18%;
+}
+
+.company p,
+.Categ p,
+.customer-care p {
+    font-size: 20px;
+    color: #58627A;
+    margin-bottom: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.company p:hover,
+.Categ p:hover,
+.customer-care p:hover {
+    color: #000;
+}
+
+.Categ0 {
+    display: flex;
+    gap: 60px;
+}
+
+.Categ1 p, .Categ2 p {
+    margin-bottom: 12px;
+}
+
+.lower-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #555555;
+}
+.lower-footer img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}

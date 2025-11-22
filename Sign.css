@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sign {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    font-family: "lobstar",regular;
+    background: #ffffff;
+    position: relative;
+}
+
+.form {
+    width: 50%;
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 3;
+    margin-left: 50px;
+}
+
+.form-logo {
+    width: 85px;
+    margin-bottom: 25px;
+}
+
+.form h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #082a4c;
+}
+
+.title {
+    color: #7a7a7a;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.title-box{
+    margin-top: 4px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -130px;
+}
+
+form label {
+    font-size: 15px;
+    color: #444;
+    font-weight: 500;
+}
+
+form input {
+    width: 85%;
+    padding:11px;
+    background: #f2f2f2;
+    border: none;
+    border-radius: 6px;
+}
+
+.create-button {
+    margin-top: 25px;
+    background: #0c3557;
+    color: #fff;
+    padding: 16px;
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 100px;
+    font-family: "lobstar",regular ;
+}
+
+.google-button {
+    margin-top: 15px;
+    background: #fff;
+    color: #082a4c;
+    padding: 14px;
+    width: 50%;
+    border-radius: 8px;
+    border: 2px solid #f4a261;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 100px;
+    font-family: "lobstar",regular ;
+
+    
+}
+
+.text {
+    margin-top: 9px;
+    color: #777;
+    margin-left: 150px;
+
+}
+
+.text a {
+    color: #f4a261;
+    text-decoration: none;
+}
+
+.sign-img {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sign-img .bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;            
+    object-position: right center; 
+    display: block;
+}
+
+
+.form-header {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 100px;
+
+}
+
+.form-logo {
+    width: 100px;
+}
+
+.title-box h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #082a4c;
+    margin: 0;
+}
+
+.title-box .title {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+span{
+color: red;
+    font-size: 21px;
+}
+
+
+
+
+
+
+
